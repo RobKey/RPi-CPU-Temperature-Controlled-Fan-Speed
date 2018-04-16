@@ -1,2 +1,2 @@
 # RPi-Fan-Speed
-Fan speed controller 
+Fan speed controller for Raspberry pi 3
