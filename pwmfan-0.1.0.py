@@ -16,11 +16,11 @@ max = 60
 def get_cpu_temp():
     #tempFile = open( '/sys/class/thermal/thermal_zone0/temp' )
     #cpu_temp = tempFile.read()
-    #tempFile.close()
+    #tempFile.close()    
+    #return float(cpu_temp)/1000
     cpu_temp = subprocess.check_output( ["/opt/vc/bin/vcgencmd", "measure_temp"] )
     t = str(cpu_temp)[7:-5]
     return float(t)
-    #return float(cpu_temp)/1000
 
 while True:
     #print("\033c")
