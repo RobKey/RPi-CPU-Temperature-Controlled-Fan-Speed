@@ -8,8 +8,8 @@ Pins BCM22(pin15) also tested on BCM17(pin11)</br >
 fan.sh commands /etc/init.d/fan.sh start /etc/init.d/fan.sh stop, this file is placed in /etc/init.d owner root:root exacutable and set it to run at boot</br >
 </br >
 sudo chmod +x /etc/init.d/fan.sh</br >
-sudo update-rc.d /etc/init.d/fan.sh defaults</br >
-If you want to stop running at boot</br ></br > 
+sudo update-rc.d /etc/init.d/fan.sh defaults</br ></br >
+If you want to stop running at boot</br > 
 sudo update-rc.d -f /etc/init.d/fan.sh remove</br > 
 
 ![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct.png)
