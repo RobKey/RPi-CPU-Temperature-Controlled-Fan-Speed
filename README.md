@@ -6,4 +6,4 @@ min = on temperature, coff = off temprature min - coff, dcmin = minimum dutycycl
 Pins BCM22(pin15) also tested on BCM17(pin11)</br >
 fan.sh commands /etc/init.d/fan.sh start /etc/init.d/fan.sh stop, this file is placed in /etc/init.d owner root:root exacutable and set it to run at boot</br >
 </br >
-![alt text](https://github.com/RobKey/CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct.png)
+![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct.png)
