@@ -6,7 +6,7 @@
 # Should-Start:      fan.sh
 # Default-Start:     2 3 4 5
 # Default-Stop:
-# X-Interactive:     false
+# X-Interactive:     true
 # Short-Description: CPU temperature controlled fan.
 ### END INIT INFO
 
