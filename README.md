@@ -9,7 +9,7 @@ fan.sh commands /etc/init.d/fan.sh start /etc/init.d/fan.sh stop, this file is p
 </br >
 sudo chmod +x /etc/init.d/fan.sh</br >
 sudo update-rc.d /etc/init.d/fan.sh defaults</br >
-<\br >
+If you want to stop running at boot</br ><\br > 
 sudo update-rc.d -f /etc/init.d/fan.sh remove</br > 
-if you want to stop running at boot</br >
+
 ![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct.png)
