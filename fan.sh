@@ -1,11 +1,11 @@
 #!/bin/bash
 ### BEGIN INIT INFO
 # Provides:          fan.sh
-# Required-Start:    $remote_fs
+# Required-Start:    $remote_fs $python3
 # Required-Stop:
 # Should-Start:      fan.sh
 # Default-Start:     2 3 4 5
-# Default-Stop:
+# Default-Stop:      0 6
 # X-Interactive:     true
 # Short-Description: CPU temperature controlled fan.
 ### END INIT INFO
@@ -36,8 +36,8 @@ case "$1" in
        start
        ;;
     status)
-       # code to check status of app comes here 
-       # example: status program_name
+       echo $(ps aux | grep 'python3 /home/pi/workspace/FanSpeed/pwmfan-0.1.0.py' | awk '{print}')
+       echo "End status." 
        ;;
     *)
        echo "Usage: $0 {start|stop|status|restart}"
