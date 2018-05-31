@@ -12,4 +12,4 @@ sudo update-rc.d /etc/init.d/fan.sh defaults</br ></br >
 If you want to stop running at boot</br > 
 sudo update-rc.d -f /etc/init.d/fan.sh remove</br > 
 
-![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct.png)
+![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct1.png)
