@@ -17,4 +17,12 @@ sudo update-rc.d -f /etc/init.d/fan.sh remove </br >
 ![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct1.png)
 </BR >
 ![alt-text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/cpu-temprature-test.png)
-</br >test start with no fan runs for 276 seconds with two periods of 100% cpu usage
+</br >
+<pre>
+Test set up
+RPi 3 B in a case with cpu heatsink and 30mm fan at room teperature of 22° C
+Test starts with cpu at idle and fan off, cpu about 47° C
+Cooling start set at 42° C and 30% dutycycle (minium fan start dutycycle)
+there are two periods or 100% cpu usage cpu reaches about 53° C
+
+</pre>
