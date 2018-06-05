@@ -15,3 +15,6 @@ If you want to stop running at boot</br >
 sudo update-rc.d -f /etc/init.d/fan.sh remove </br > 
 
 ![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct1.png)
+</BR >
+![alt-text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/cpu-temprature-test.png)
+test start with no fan runs for 276 seconds with two periods of 100% cpu usage
