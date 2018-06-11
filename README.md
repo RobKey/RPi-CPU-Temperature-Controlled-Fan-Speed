@@ -6,7 +6,7 @@ pwnfan-0.01.0.py uses PWMLED function (pulse width modulation) a transistor, a r
 min = on temperature, coff = off temprature min - coff, dcmin = minimum dutycycle fan will run at, max = temperature for 100% fan  </br > 
 Pins BCM22(pin15) also tested on BCM17(pin11)</br >
 python3 /home/pi/workspace/FanSpeed/pwmfan-0.1.0.py</br ></br >
-fan.sh only required for run at boot commands /etc/init.d/fan.sh start /etc/init.d/fan.sh stop, this file is placed in /etc/init.d owner root:root exacutable and set it to run at boot, edit the paths in fans.sh for your location of pwmfan.0.1.0.py</br >
+fan.sh is only required for run at boot, commands /etc/init.d/fan.sh start /etc/init.d/fan.sh stop, this file is placed in /etc/init.d owner root:root exacutable and set it to run at boot, edit the paths in fans.sh for your location of pwmfan.0.1.0.py</br >
 </br >
 sudo chmod +x /etc/init.d/fan.sh</br >
 sudo chown root:root /etc/init.d/fan.sh</br >
