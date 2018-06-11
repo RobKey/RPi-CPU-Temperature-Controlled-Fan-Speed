@@ -20,7 +20,7 @@ start() {
 
 stop() {
     # code to stop app comes here 
-    sudo kill $(ps aux | grep 'python3 /home/pi/workspace/FanSpeed/pwmfan-0.1.0.py' | awk '{print $2}')
+    sudo kill $(ps aux | grep 'python3 /home/pi/workspace/FanSpeed/pwmfan-0.1.0.py' | awk 'NR==1{print $2}')
     echo "pwnfan-0.1.0.py Stopped"
 }
 
