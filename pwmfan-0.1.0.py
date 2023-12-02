@@ -6,7 +6,7 @@ from time import sleep
 from subprocess import PIPE, Popen
 import subprocess
 
-fan = PWMLED(22)   // pin 15 gpio
+fan = PWMLED(22)   
 flag = 0
 min = 42
 coff = 0.5
