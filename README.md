@@ -10,9 +10,9 @@ fan.sh is only required for run at boot, commands /etc/init.d/fan.sh start /etc/
 </br >
 sudo chmod +x /etc/init.d/fan.sh</br >
 sudo chown root:root /etc/init.d/fan.sh</br >
-sudo update-rc.d /etc/init.d/fan.sh defaults</br ></br >
+sudo update-rc.d fan.sh defaults</br ></br >
 If you want to stop running at boot</br > 
-sudo update-rc.d -f /etc/init.d/fan.sh remove </br > 
+sudo update-rc.d -f fan.sh remove </br > 
 
 ![alt text](https://github.com/RobKey/RPi-CPU-Temperature-Controlled-Fan-Speed/blob/master/fancct2.png)
 </BR >
